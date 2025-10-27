@@ -1,0 +1,27 @@
+services:
+  waf-nginx:
+    image: owasp/modsecurity-crs:4.19.0-nginx-alpine-202510180710
+    container_name: waf-nginx
+    restart: always
+    ports:
+      - "80:8080"
+      - "443:8443"
+    environment:
+      - SSL_CERT_FILE=/etc/ssl/private/fullchain.pem
+      - SERVER_NAME=securewebserver.mybank.local
+      - SSL_CERT_KEY_FILE=/etc/ssl/private/securewebserver-test.key
+      - BACKEND=https://192.168.61.15
+      - MODSEC_RULE_ENGINE=On
+      - MODSEC_AUDIT_ENGINE=On
+      - MODSEC_AUDIT_LOG=/var/log/modsec_audit.log
+      - MODSEC_AUDIT_LOG_FORMAT=JSON
+      - MODSEC_AUDIT_LOG_TYPE=Serial
+      - MODSEC_DEBUG_LOG=/var/log/modsec_debug.log
+      - MODSEC_DEBUG_LOGLEVEL=3
+      - LOGLEVEL=warn
+      - ERRORLOG=/var/log/modsec_error.log
+    volumes:
+      - /root/waf/certs/ca.crt:/etc/ssl/certs/caca.crt:ro
+      - /root/waf/certs:/etc/ssl/private:ro
+      - /root/waf/logs:/var/log:rw
+      - /root/waf/logs:/var/log/nginx:rw
