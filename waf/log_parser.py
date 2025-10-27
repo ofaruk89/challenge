@@ -15,15 +15,10 @@ DOCKER_CONTAINER = "waf-nginx"
 TIME_WINDOW_MINUTES = 5
 TRIGGER_COUNT = 5
 
-# --- NEW ---
-# Add a whitelist of IPs that should NEVER be blocked.
 IP_WHITELIST = {
     "127.0.0.1",
     "localhost"
-    # Buraya ofis IP'niz gibi başka güvenli IP'leri ekleyebilirsiniz
-    # "88.88.88.88" 
 }
-# --- END NEW ---
 
 def setup_logging():
     try:
@@ -98,21 +93,15 @@ def process_logs():
                     transaction = log_entry.get("transaction", {})
                     ts_str = transaction.get("time_stamp")
                     client_ip = transaction.get("client_ip")
-                    # --- NEW ---
-                    # Check if the 'messages' array exists and is not empty
                     messages = transaction.get("messages")
-                    # --- END NEW ---
 
                     if not ts_str or not client_ip:
                         continue 
 
                     log_time = parse_timestamp(ts_str)
                     
-                    # --- MODIFIED ---
-                    # Only count if it's in the time window AND 'messages' is not empty
                     if log_time >= time_limit and messages: 
                         ip_counts[client_ip] += 1
-                    # --- END MODIFIED ---
                         
                 except json.JSONDecodeError:
                     logging.warning("Skipped a malformed JSON line.")
@@ -130,20 +119,14 @@ def process_logs():
     new_ips_to_block = []
     logging.info("--- Scan Results ---")
     for ip, count in ip_counts.items():
-        # --- MODIFIED ---
-        # Check trigger count AND if the IP is NOT in the whitelist
         if count >= TRIGGER_COUNT and ip not in IP_WHITELIST:
-        # --- END MODIFIED ---
             if ip not in existing_ips:
                 logging.info(f"NEW IP to block: {ip} (Violation count: {count})")
                 new_ips_to_block.append(ip)
             else:
                 logging.info(f"Already blocked IP: {ip} (Violation count: {count})")
-        # --- NEW ---
-        # Log if a whitelisted IP triggered the rule, but don't block it
         elif count >= TRIGGER_COUNT and ip in IP_WHITELIST:
              logging.info(f"Whitelisted IP {ip} triggered {count} violations, NOT blocking.")
-        # --- END NEW ---
 
     if not ip_counts:
         logging.info("No relevant log entries (with rule violations) found in the time window.")
