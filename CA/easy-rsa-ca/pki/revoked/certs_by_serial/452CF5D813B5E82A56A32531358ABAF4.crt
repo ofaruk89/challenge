@@ -1,0 +1,92 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            45:2c:f5:d8:13:b5:e8:2a:56:a3:25:31:35:8a:ba:f4
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=Omer Test Labs CA
+        Validity
+            Not Before: Oct 26 00:48:03 2025 GMT
+            Not After : Oct 26 00:48:03 2026 GMT
+        Subject: CN=securewebserver.mybank.local
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ad:b5:13:4b:de:64:f6:0d:15:fa:93:56:a0:23:
+                    81:3b:31:11:48:78:50:18:17:96:ce:d8:62:e8:fb:
+                    67:75:b6:21:e8:69:65:a7:d1:25:d6:70:c9:88:ae:
+                    d4:e9:09:14:ae:45:a1:ea:0d:30:17:d7:bd:c8:39:
+                    e5:45:98:58:14:b4:4d:47:14:e8:bb:b3:c6:46:2d:
+                    aa:5f:e0:57:01:5f:af:a9:8e:86:61:57:8a:86:2a:
+                    7e:a3:9f:1f:a7:c6:b9:60:3f:47:05:ce:92:a5:86:
+                    1b:15:4e:0e:fa:0c:54:c0:b5:de:dd:6d:b9:e0:81:
+                    9e:c6:40:0f:0c:bf:1b:5b:bd:cc:8c:3e:a9:be:4b:
+                    c6:e9:99:5a:01:5f:8f:40:a3:82:da:ae:bf:da:20:
+                    fb:4d:25:66:9c:3b:3a:57:5a:48:e7:1f:2d:06:9a:
+                    15:2d:e1:fe:a3:5e:87:4b:2d:7a:f2:d0:c7:d9:5b:
+                    fc:e3:73:09:7c:29:3a:f2:3d:4b:25:b3:0c:61:2b:
+                    a3:0f:b5:76:b8:49:ef:d1:d2:fa:46:14:53:a3:ca:
+                    9c:84:3f:0e:c1:db:f8:f4:47:9f:f7:ce:17:19:62:
+                    30:fe:38:56:6a:7a:47:bf:5b:4b:a0:61:06:cc:d0:
+                    fa:4f:e1:d2:cc:cb:a9:e6:7c:6a:1b:2f:61:6c:fd:
+                    f7:f7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                74:92:82:AC:3F:1B:5F:C8:52:5D:B2:45:50:95:18:CC:7E:B8:7D:B9
+            X509v3 Authority Key Identifier: 
+                keyid:45:29:50:54:81:AC:C4:F6:92:D9:F5:7F:2F:E1:75:D2:04:54:F6:C7
+                DirName:/CN=Omer Test Labs CA
+                serial:0E:67:34:1E:12:D8:29:6A:6D:96:79:8A:A0:49:F3:F1:18:62:4A:0D
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://192.168.61.10/crl.pem
+            X509v3 Subject Alternative Name: 
+                DNS:securewebserver.mybank.local
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        8e:87:2f:3e:f8:c1:8f:1a:79:c8:e8:0e:22:81:13:33:dd:90:
+        6b:8c:e9:72:dc:1e:25:d1:53:03:1e:28:f9:0d:23:9e:2e:2f:
+        ad:76:70:c8:1d:3c:dd:d1:d3:56:50:98:ed:90:96:63:1d:71:
+        d1:c4:c8:3e:50:ac:40:f9:00:1a:84:22:c6:c9:2d:92:3c:5b:
+        92:37:c7:2b:6e:fe:29:be:ba:40:12:df:6e:88:d1:71:61:2d:
+        35:51:9f:8e:c9:3c:5b:1a:56:2a:f8:b1:54:65:4f:bc:ba:c5:
+        de:82:8d:c6:4e:8e:c4:61:7c:e5:01:70:40:d2:6c:b9:9f:e5:
+        a3:27:19:fb:0c:cd:4e:be:43:6f:88:96:e4:df:67:ee:0e:ae:
+        42:40:7b:a2:21:67:e0:59:67:01:3a:67:07:c2:e7:00:bd:0b:
+        02:db:b6:ac:0d:3c:04:31:71:59:52:ae:bc:c4:56:ef:20:4a:
+        31:c0:3d:2f:56:ce:e8:d7:47:bd:65:02:e0:ce:83:3c:60:e1:
+        2a:4e:27:62:d6:91:b1:67:65:d1:79:69:57:91:05:05:ab:26:
+        06:3e:b8:fd:21:fd:7c:0a:0c:f8:bc:b0:7d:8d:ff:2a:90:ac:
+        08:92:0f:7c:5c:af:13:1f:30:8d:bf:a8:ce:da:a9:44:09:d7:
+        52:ce:43:c6
+-----BEGIN CERTIFICATE-----
+MIIDzzCCAregAwIBAgIQRSz12BO16CpWoyUxNYq69DANBgkqhkiG9w0BAQsFADAc
+MRowGAYDVQQDDBFPbWVyIFRlc3QgTGFicyBDQTAeFw0yNTEwMjYwMDQ4MDNaFw0y
+NjEwMjYwMDQ4MDNaMCcxJTAjBgNVBAMMHHNlY3VyZXdlYnNlcnZlci5teWJhbmsu
+bG9jYWwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCttRNL3mT2DRX6
+k1agI4E7MRFIeFAYF5bO2GLo+2d1tiHoaWWn0SXWcMmIrtTpCRSuRaHqDTAX173I
+OeVFmFgUtE1HFOi7s8ZGLapf4FcBX6+pjoZhV4qGKn6jnx+nxrlgP0cFzpKlhhsV
+Tg76DFTAtd7dbbnggZ7GQA8MvxtbvcyMPqm+S8bpmVoBX49Ao4Larr/aIPtNJWac
+OzpXWkjnHy0GmhUt4f6jXodLLXry0MfZW/zjcwl8KTryPUslswxhK6MPtXa4Se/R
+0vpGFFOjypyEPw7B2/j0R5/3zhcZYjD+OFZqeke/W0ugYQbM0PpP4dLMy6nmfGob
+L2Fs/ff3AgMBAAGjggEAMIH9MAkGA1UdEwQCMAAwHQYDVR0OBBYEFHSSgqw/G1/I
+Ul2yRVCVGMx+uH25MFcGA1UdIwRQME6AFEUpUFSBrMT2ktn1fy/hddIEVPbHoSCk
+HjAcMRowGAYDVQQDDBFPbWVyIFRlc3QgTGFicyBDQYIUDmc0HhLYKWptlnmKoEnz
+8RhiSg0wEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMC0GA1UdHwQm
+MCQwIqAgoB6GHGh0dHA6Ly8xOTIuMTY4LjYxLjEwL2NybC5wZW0wJwYDVR0RBCAw
+HoIcc2VjdXJld2Vic2VydmVyLm15YmFuay5sb2NhbDANBgkqhkiG9w0BAQsFAAOC
+AQEAjocvPvjBjxp5yOgOIoETM92Qa4zpctweJdFTAx4o+Q0jni4vrXZwyB083dHT
+VlCY7ZCWYx1x0cTIPlCsQPkAGoQixsktkjxbkjfHK27+Kb66QBLfbojRcWEtNVGf
+jsk8WxpWKvixVGVPvLrF3oKNxk6OxGF85QFwQNJsuZ/loycZ+wzNTr5Db4iW5N9n
+7g6uQkB7oiFn4FlnATpnB8LnAL0LAtu2rA08BDFxWVKuvMRW7yBKMcA9L1bO6NdH
+vWUC4M6DPGDhKk4nYtaRsWdl0XlpV5EFBasmBj64/SH9fAoM+LywfY3/KpCsCJIP
+fFyvEx8wjb+oztqpRAnXUs5Dxg==
+-----END CERTIFICATE-----

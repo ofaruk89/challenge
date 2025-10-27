@@ -1,0 +1,10 @@
+services:
+  nginx:
+    image: nginx:stable-alpine
+    container_name: nginx-crl
+    ports:
+      - "80:80"
+    volumes:
+      - /tmp/crl.pem:/usr/share/nginx/html/crl.pem:ro
+    restart: unless-stopped
+
