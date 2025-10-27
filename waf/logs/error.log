@@ -83,3 +83,125 @@
 2025/10/26 18:55:25 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
 2025/10/26 18:55:25 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/835/0)
 2025/10/26 18:55:25 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 13:13:46 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:13:46 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:13:46 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 13:16:36 [warn] 648#648: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:16:36 [notice] 648#648: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:16:36 [notice] 648#648: libmodsecurity3 version 3.0.14
+2025/10/27 13:24:33 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:24:33 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:24:33 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 13:27:55 [warn] 657#657: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:27:55 [notice] 657#657: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:27:55 [notice] 657#657: libmodsecurity3 version 3.0.14
+2025/10/27 13:27:55 [notice] 657#657: signal process started
+2025/10/27 13:29:07 [warn] 752#752: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:29:07 [notice] 752#752: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:29:07 [notice] 752#752: libmodsecurity3 version 3.0.14
+2025/10/27 13:29:07 [notice] 752#752: signal process started
+2025/10/27 13:29:27 [warn] 822#822: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:29:27 [notice] 822#822: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:29:27 [notice] 822#822: libmodsecurity3 version 3.0.14
+2025/10/27 13:29:27 [notice] 822#822: signal process started
+2025/10/27 13:33:27 [warn] 980#980: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:33:27 [notice] 980#980: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:33:27 [notice] 980#980: libmodsecurity3 version 3.0.14
+2025/10/27 13:41:32 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:41:32 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:41:32 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 13:51:24 [warn] 796#796: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 13:51:24 [notice] 796#796: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 13:51:24 [notice] 796#796: libmodsecurity3 version 3.0.14
+2025/10/27 14:08:37 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/00-def.conf:1
+2025/10/27 14:08:38 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/00-def.conf:1
+2025/10/27 14:08:39 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/00-def.conf:1
+2025/10/27 14:08:40 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/00-def.conf:1
+2025/10/27 14:08:41 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/00-def.conf:1
+2025/10/27 14:08:43 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/00-def.conf:1
+2025/10/27 14:08:47 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/00-def.conf:1
+2025/10/27 14:09:33 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:09:33 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:09:33 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 14:11:30 [warn] 635#635: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:11:30 [notice] 635#635: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:11:30 [notice] 635#635: libmodsecurity3 version 3.0.14
+2025/10/27 14:11:30 [notice] 635#635: signal process started
+2025/10/27 14:12:02 [warn] 722#722: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:12:02 [notice] 722#722: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:12:02 [notice] 722#722: libmodsecurity3 version 3.0.14
+2025/10/27 14:14:18 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:14:18 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:14:18 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 14:14:50 [warn] 609#609: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:14:50 [notice] 609#609: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:14:50 [notice] 609#609: libmodsecurity3 version 3.0.14
+2025/10/27 14:16:50 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:16:50 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:16:50 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 14:20:38 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:20:38 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:20:38 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 14:25:12 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:25:12 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:25:12 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 14:37:33 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:37:33 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:37:33 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 14:42:24 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:42:24 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:42:24 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 14:54:55 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:54:55 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:54:55 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 14:55:56 [warn] 608#608: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:55:56 [notice] 608#608: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:55:56 [notice] 608#608: libmodsecurity3 version 3.0.14
+2025/10/27 14:55:56 [notice] 608#608: signal process started
+2025/10/27 14:56:59 [warn] 699#699: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 14:56:59 [notice] 699#699: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 14:56:59 [notice] 699#699: libmodsecurity3 version 3.0.14
+2025/10/27 14:56:59 [notice] 699#699: signal process started
+2025/10/27 15:02:01 [warn] 873#873: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:02:01 [notice] 873#873: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:02:01 [notice] 873#873: libmodsecurity3 version 3.0.14
+2025/10/27 15:02:01 [notice] 873#873: signal process started
+2025/10/27 15:18:21 [warn] 1275#1275: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:18:21 [notice] 1275#1275: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:18:21 [notice] 1275#1275: libmodsecurity3 version 3.0.14
+2025/10/27 15:18:21 [notice] 1275#1275: signal process started
+2025/10/27 15:18:47 [warn] 1356#1356: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:18:47 [notice] 1356#1356: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:18:47 [notice] 1356#1356: libmodsecurity3 version 3.0.14
+2025/10/27 15:18:47 [notice] 1356#1356: signal process started
+2025/10/27 15:20:01 [warn] 1457#1457: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:20:01 [notice] 1457#1457: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:20:01 [notice] 1457#1457: libmodsecurity3 version 3.0.14
+2025/10/27 15:20:01 [notice] 1457#1457: signal process started
+2025/10/27 15:20:07 [warn] 1527#1527: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:20:07 [notice] 1527#1527: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:20:07 [notice] 1527#1527: libmodsecurity3 version 3.0.14
+2025/10/27 15:20:07 [notice] 1527#1527: signal process started
+2025/10/27 15:20:27 [warn] 1597#1597: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:20:27 [notice] 1597#1597: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:20:27 [notice] 1597#1597: libmodsecurity3 version 3.0.14
+2025/10/27 15:20:27 [notice] 1597#1597: signal process started
+2025/10/27 15:21:15 [warn] 1#1: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:21:15 [notice] 1#1: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:21:15 [notice] 1#1: libmodsecurity3 version 3.0.14
+2025/10/27 15:21:56 [warn] 598#598: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:21:56 [notice] 598#598: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:21:56 [notice] 598#598: libmodsecurity3 version 3.0.14
+2025/10/27 15:21:56 [notice] 598#598: signal process started
+2025/10/27 15:22:02 [warn] 669#669: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:22:02 [notice] 669#669: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:22:02 [notice] 669#669: libmodsecurity3 version 3.0.14
+2025/10/27 15:22:02 [notice] 669#669: signal process started
+2025/10/27 15:34:39 [warn] 1006#1006: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:34:39 [notice] 1006#1006: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:34:39 [notice] 1006#1006: libmodsecurity3 version 3.0.14
+2025/10/27 15:34:39 [notice] 1006#1006: signal process started
+2025/10/27 15:37:01 [warn] 1127#1127: "ssl_stapling" ignored, no OCSP responder URL in the certificate "/etc/ssl/private/fullchain.pem"
+2025/10/27 15:37:01 [notice] 1127#1127: ModSecurity-nginx v1.0.4 (rules loaded inline/local/remote: 0/836/0)
+2025/10/27 15:37:01 [notice] 1127#1127: libmodsecurity3 version 3.0.14
+2025/10/27 15:37:01 [notice] 1127#1127: signal process started

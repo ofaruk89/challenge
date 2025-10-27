@@ -25,3 +25,15 @@ services:
       - /root/waf/certs:/etc/ssl/private:ro
       - /root/waf/logs:/var/log:rw
       - /root/waf/logs:/var/log/nginx:rw
+      - /root/waf/blacklist.txt:/usr/share/nginx/html/blacklist.txt:ro
+      - /root/waf/modsec_local/REQUEST-000-BLACKLIST.conf:/etc/modsecurity.d/owasp-crs/rules/REQUEST-000-BLACKLIST.conf:ro
+
+  blacklist-service:
+    image: nginx:stable-alpine
+    container_name: blacklist-service
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - /root/waf/blacklist.txt:/usr/share/nginx/html/blacklist.txt:ro
+
