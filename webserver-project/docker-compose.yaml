@@ -1,0 +1,30 @@
+
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    container_name: dvwa-app
+    restart: always
+    expose:
+      - "80"
+    networks:
+      - assessment-net
+
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: nginx-proxy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/dvwa.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./ssl/fullchain-old.pem:/etc/ssl/certs/fullchain.pem:ro
+      - ./ssl/webserver-old.key:/etc/ssl/private/webserver.key:ro
+    networks:
+      - assessment-net
+    depends_on:
+      - dvwa
+
+networks:
+  assessment-net:
+    driver: bridge
